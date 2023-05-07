@@ -4,7 +4,7 @@ event_handler - This module defines the EventHandler class
 
 import tcod.event
 from typing import Optional
-from actions import Action, EscapeAction, MovementAction
+from .actions import Action, EscapeAction, MovementAction
 
 
 class EventHandler(tcod.event.EventDispatch[Action]):
